@@ -12,7 +12,7 @@ This project is an AI-enhanced Connect Four game that allows users to play again
 - AI player with varying levels of difficulty
 - Different tie-breaking strategies for AI (leftmost, rightmost, random)
 - Players can play against each other or against the AI
-- Board visualization
+- Terminal-based Gameboard visualization
 
 ## Installation
 No additional libraries are required to run this project. Simply clone the repository and execute the Python script.
@@ -26,6 +26,9 @@ board = Connect4(7, 6)  # Creates a 7x6 board
 p = Player('x', 'Left', 2)  # AI player with 'x' as its symbol, 'Left' tie-breaking strategy, and ply of 2
 board.playGameWith(p)  # Starts the game with the specified AI player
 ```
+Gameboard Visualization in Terminal:
+
+<img width="155" alt="image" src="https://user-images.githubusercontent.com/111834642/227357116-63c6337c-1f5e-47f5-9cc7-a107cb0fbcfc.png">
 
 # Classes and Functions
 
@@ -55,6 +58,6 @@ board.playGameWith(p)  # Starts the game with the specified AI player
 
 - <strong>main()</strong>: Initializes the game with the specified board size and level of difficulty
 
-## Licesne
+## License
 
 This project is released under the MIT License. Please see the 'LICENSE' file for more information.
